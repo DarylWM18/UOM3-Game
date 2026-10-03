@@ -8,7 +8,7 @@ const StickFigure = preload("res://stick_figure.gd")
 var target_player
 var recording: Array = []
 var is_active := false
-var playback_speed := 3.0
+var playback_speed := 1.0
 var idx_f := 0.0
 var shift := Vector2.ZERO
 var retarget_t := 0.0
